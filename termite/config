@@ -1,0 +1,234 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = Source Code Pro 10
+scrollback_lines = 10000
+search_wrap = true
+#icon_name = terminal
+#geometry = 640x480
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# set size hints for the window
+#size_hints = false
+
+# Hide links that are no longer valid in url select overlay mode
+filter_unmatched_urls = true
+
+# emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# get more themes from https://github.com/khamer/base16-termite/tree/master/themes
+#============================================================================================
+[colors]
+# Base16 Twilight
+# Author: David Hart (https://github.com/hartbit)
+
+foreground      = #a7a7a7
+foreground_bold = #c3c3c3
+cursor          = #c3c3c3
+# background      = #1e1e1e
+background = rgba(0x1e, 0x1e, 0x1e, 0.7)
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #1e1e1e
+color8  = #5f5a60
+color7  = #a7a7a7
+color15 = #ffffff
+
+# Red
+color1  = #cf6a4c
+color9  = #cf6a4c
+
+# Green
+color2  = #8f9d6a
+color10 = #8f9d6a
+
+# Yellow
+color3  = #f9ee98
+color11 = #f9ee98
+
+# Blue
+color4  = #7587a6
+color12 = #7587a6
+
+# Purple
+color5  = #9b859d
+color13 = #9b859d
+
+# Teal
+color6  = #afc4db
+color14 = #afc4db
+
+# Extra colors
+color16 = #cda869
+color17 = #9b703f
+color18 = #323537
+color19 = #464b50
+color20 = #838184
+color21 = #c3c3c3
+
+#============================================================================================
+# [colors]
+# # Base16 OneDark
+# # Author: Lalit Magant (http://github.com/tilal6991)
+
+# foreground      = #abb2bf
+# foreground_bold = #b6bdca
+# cursor          = #b6bdca
+# # background      = #282c34
+# background = rgba(0x28, 0x2c, 0x34, 0.7)
+
+# # 16 color space
+
+# # Black, Gray, Silver, White
+# color0  = #282c34
+# color8  = #545862
+# color7  = #abb2bf
+# color15 = #c8ccd4
+
+# # Red
+# color1  = #e06c75
+# color9  = #e06c75
+
+# # Green
+# color2  = #98c379
+# color10 = #98c379
+
+# # Yellow
+# color3  = #e5c07b
+# color11 = #e5c07b
+
+# # Blue
+# color4  = #61afef
+# color12 = #61afef
+
+# # Purple
+# color5  = #c678dd
+# color13 = #c678dd
+
+# # Teal
+# color6  = #56b6c2
+# color14 = #56b6c2
+
+# # Extra colors
+# color16 = #d19a66
+# color17 = #be5046
+# color18 = #353b45
+# color19 = #3e4451
+# color20 = #565c64
+# color21 = #b6bdca
+#============================================================================================
+# [colors]
+# # Base16 Gruvbox dark, medium
+# # Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+
+# foreground      = #d5c4a1
+# foreground_bold = #ebdbb2
+# cursor          = #ebdbb2
+# # background      = #282828
+
+# # # 20% background transparency (requires a compositor)
+# background = rgba(0x28, 0x28, 0x28, 0.8)
+
+# # 16 color space
+
+# # Black, Gray, Silver, White
+# color0  = #282828
+# color8  = #665c54
+# color7  = #d5c4a1
+# color15 = #fbf1c7
+
+# # Red
+# color1  = #fb4934
+# color9  = #fb4934
+
+# # Green
+# color2  = #b8bb26
+# color10 = #b8bb26
+
+# # Yellow
+# color3  = #fabd2f
+# color11 = #fabd2f
+
+# # Blue
+# color4  = #83a598
+# color12 = #83a598
+
+# # Purple
+# color5  = #d3869b
+# color13 = #d3869b
+
+# # Teal
+# color6  = #8ec07c
+# color14 = #8ec07c
+
+# # Extra colors
+# color16 = #fe8019
+# color17 = #d65d0e
+# color18 = #3c3836
+# color19 = #504945
+# color20 = #bdae93
+# color21 = #ebdbb2
+
+#==================================================================================
+# [colors]
+# Default theme
+# #cursor = #dcdccc
+# #cursor_foreground = #dcdccc
+# foreground = #dcdccc
+# foreground_bold = #ffffff
+# background = #3f3f3f
+
+# # 20% background transparency (requires a compositor)
+# #background = rgba(63, 63, 63, 0.8)
+
+# # if unset, will reverse foreground and background
+# highlight = #2f2f2f
+
+# # colors from color0 to color254 can be set
+# color0 = #3f3f3f
+# color1 = #705050
+# color2 = #60b48a
+# color3 = #dfaf8f
+# color4 = #506070
+# color5 = #dc8cc3
+# color6 = #8cd0d3
+# color7 = #dcdccc
+# color8 = #709080
+# color9 = #dca3a3
+# color10 = #c3bf9f
+# color11 = #f0dfaf
+# color12 = #94bff3
+# color13 = #ec93d3
+# color14 = #93e0e3
+# color15 = #ffffff
+#==================================================================================
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s

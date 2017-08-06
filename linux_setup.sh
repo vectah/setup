@@ -2,7 +2,7 @@ echo "====================================================="
 echo "Getting Emacs, git, spacemacs, and personal spacemacs"
 echo "====================================================="
 sudo pacman -S emacs
-sudo pacman -S git
+# sudo pacman -S git
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 mkdir ~/spacemacs
 git clone https://github.com/vectah/spacemacs ~/spacemacs
@@ -79,3 +79,28 @@ mkdir ~/.vim/colors
 git clone https://github.com/jnurmine/Zenburn.git
 cp Zenburn/colors/zenburn.vim ~/.vim/colors
 rm -rf Zenburn
+
+echo "====================================================="
+echo "Rofi"
+echo "====================================================="
+sudo pacman -S rofi
+
+echo "====================================================="
+echo "Termite"
+echo "====================================================="
+sudo pacman -S termite
+mkdir ~/.config/termite
+cp -v /etc/xdg/termite/config ~/.config/termite/
+
+echo "====================================================="
+echo "Source Code Pro"
+echo "====================================================="
+sudo pacman -S adobe-source-code-pro-fonts
+
+echo "====================================================="
+echo "Ripgrep"
+echo "====================================================="
+sudo pacman -S ripgrep
+
+
+
