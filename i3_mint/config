@@ -118,7 +118,7 @@ bindsym $mod+f fullscreen toggle
 # only use gaps if more than 1 container
 smart_gaps on
 
-gaps inner 5
+gaps inner 6
 gaps outer 3
 
 # change container layout (stacked, tabbed, toggle split)
@@ -261,6 +261,8 @@ exec --no-startup-id compton --config ~/.config/compton.conf -b
 exec --no-startup-id volumeicon
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec --no-startup-id gvfs-mount smb://optimalmain/design-data
+# exec --no-startup-id conky -d -c ~/.config/conky/conky.conf
+# exec --no-startup-id conky -d -c ~/.config/conky/conky-net.conf
 
 # green
 # client.focused #689d6a #689d6a #282828 #282828
